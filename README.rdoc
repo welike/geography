@@ -19,7 +19,6 @@ All of the data sources (including some that are not currently in use) are liste
 decision on which data sources to use were solely based on simplicity of data retrieval and parsing. In the future, based on user
 feedback, we can use alternative data sources that might be more precise or more up-to-date.
 
-
 === Continent
 
 * MaxMind
