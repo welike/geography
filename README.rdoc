@@ -1,0 +1,24 @@
+= Geography Rails Plugin
+ 
+== Description
+ 
+This is a plugin for Rails that provides common geography-related classes, helpers, and up-to-date data, such 
+as Continent, Country, State, and ZipCode.
+ 
+== Author
+
+Kevin Elliott is the President of WeLike LLC, a company building web and phone applications that help people find
+the things they'll love. Besides spending a lot of time making his company successful and learning new technologies,
+Kevin likes to give back to the community that gave him so much.
+
+Kevin Elliott - mailto:kevin@welikeinc.com or mailto:kevin@phunc.com
+
+Company - http://www.welikeinc.com
+
+Blog - http://kevinelliott.net/blogs/entrepreneurial
+
+http://twitter.com/kevinelliott
+
+
+Copyright (c) 2009 WeLike, LLC, released under the MIT license
+
