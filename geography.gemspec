@@ -18,10 +18,17 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "MIT-LICENSE",
+     "README",
      "README.rdoc",
      "Rakefile",
      "VERSION",
      "generators/geography/geography_generator.rb",
+     "generators/geography/templates/continents.rb",
+     "generators/geography/templates/counties.rb",
+     "generators/geography/templates/countries.rb",
+     "generators/geography/templates/regions.rb",
+     "generators/geography/templates/states.rb",
+     "geography.gemspec",
      "init.rb",
      "install.rb",
      "lib/geography.rb",
