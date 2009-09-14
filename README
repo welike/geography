@@ -5,6 +5,13 @@
 This is a plugin for Rails that provides common geography-related classes, helpers, and up-to-date data, such 
 as Continent, Country, State, and ZipCode.
 
+== Installation
+
+[code]
+$ sudo gem install welike-geography --source http://gems.github.com
+$ script/generate geography
+[/code]
+
 == Classes
 
 * Continent
