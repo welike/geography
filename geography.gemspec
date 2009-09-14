@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{geography}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kevin Elliott"]
@@ -23,22 +23,24 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "generators/geography/geography_generator.rb",
-     "generators/geography/templates/continents.rb",
-     "generators/geography/templates/counties.rb",
-     "generators/geography/templates/countries.rb",
-     "generators/geography/templates/regions.rb",
-     "generators/geography/templates/states.rb",
+     "generators/geography/templates/migrations/continents.rb",
+     "generators/geography/templates/migrations/counties.rb",
+     "generators/geography/templates/migrations/countries.rb",
+     "generators/geography/templates/migrations/regions.rb",
+     "generators/geography/templates/migrations/states.rb",
+     "generators/geography/templates/models/continent.rb",
+     "generators/geography/templates/models/country.rb",
+     "generators/geography/templates/models/county.rb",
+     "generators/geography/templates/models/region.rb",
+     "generators/geography/templates/models/state.rb",
      "geography.gemspec",
      "init.rb",
      "install.rb",
      "lib/geography.rb",
+     "lib/geography/data_loaders.rb",
+     "lib/geography/data_loaders/countries.rb",
      "rails/init.rb",
      "tasks/geography_tasks.rake",
-     "templates/models/continent.rb",
-     "templates/models/country.rb",
-     "templates/models/county.rb",
-     "templates/models/region.rb",
-     "templates/models/state.rb",
      "test/geography_test.rb",
      "test/test_helper.rb",
      "uninstall.rb"
