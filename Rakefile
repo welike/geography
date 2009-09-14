@@ -1,6 +1,21 @@
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
+require 'rake/gempackagetask'
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "geography"
+    gemspec.summary = "Commonly needed geography classes, migrations, and helpers"
+    gemspec.email = "kevin@welikeinc.com"
+    gemspec.homepage = "http://github.com/welike/geography"
+    gemspec.description = "TODO"
+    gemspec.authors = ["Kevin Elliott"]
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+end
 
 desc 'Default: run unit tests.'
 task :default => :test
