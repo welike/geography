@@ -15,10 +15,8 @@ Where possible, I have chosen data sources with the most up to date information.
 
 == Installation
 
-<tt>
-$ sudo gem install welike-geography --source http://gems.github.com
-$ script/generate geography
-</tt>
+ $ sudo gem install welike-geography --source http://gems.github.com
+ $ script/generate geography
 
 == Classes
 
