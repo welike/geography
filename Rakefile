@@ -7,10 +7,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "geography"
-    gemspec.summary = "Commonly needed geography classes, migrations, and helpers"
+    gemspec.summary = "Commonly needed geography classes, migrations, helpers, and data."
     gemspec.email = "kevin@welikeinc.com"
     gemspec.homepage = "http://github.com/welike/geography"
-    gemspec.description = "TODO"
+    gemspec.description = "Commonly needed geography classes, migrations, helpers, and data."
     gemspec.authors = ["Kevin Elliott"]
   end
 rescue LoadError

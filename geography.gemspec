@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kevin Elliott"]
   s.date = %q{2009-09-15}
-  s.description = %q{TODO}
+  s.description = %q{Commonly needed geography classes, migrations, helpers, and data.}
   s.email = %q{kevin@welikeinc.com}
   s.extra_rdoc_files = [
     "README",
@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Commonly needed geography classes, migrations, and helpers}
+  s.summary = %q{Commonly needed geography classes, migrations, helpers, and data.}
   s.test_files = [
     "test/geography_test.rb",
      "test/test_helper.rb"

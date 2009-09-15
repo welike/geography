@@ -21,6 +21,11 @@ namespace :geo do
     puts "========================="
     puts "Continents: #{Continent.count}"
     puts "Countries: #{Country.count}"
+    puts "States / SubCountries: 0"
+    puts "Regions: 0"
+    puts "Counties: 0"
+    puts "Cities: 0"
+    puts "Postal Codes: 0"
     puts "========================="
   end
 end
