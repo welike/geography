@@ -20,6 +20,8 @@ class GeographyGenerator < Rails::Generator::NamedBase
       #m.migration_template 'migrations/regions.rb', "db/migrate", :migration_file_name => "create_regions"
       #m.migration_template 'migrations/counties.rb', "db/migrate", :migration_file_name => "create_counties"
 
+      # Tasks
+      m.template 'geography_tasks.rake', 'lib/tasks/geography_tasks.rake'
     end
   end
 
