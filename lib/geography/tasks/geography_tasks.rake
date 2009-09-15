@@ -14,4 +14,13 @@ namespace :geo do
       Geography::DataLoaders::Countries.load('wikipedia', 'db/raw/Wikipedia-countries_for_continents.tsv')
     end
   end
+  
+  desc "Statistics of the geography data"
+  task :stats => :environment do
+    puts "Geography Statistics"
+    puts "========================="
+    puts "Continents: #{Continent.count}"
+    puts "Countries: #{Country.count}"
+    puts "========================="
+  end
 end
