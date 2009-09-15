@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{geography}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kevin Elliott"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "generators/geography/geography_generator.rb",
+     "generators/geography/templates/geography_tasks.rake",
      "generators/geography/templates/migrations/combined_v1.rb",
      "generators/geography/templates/migrations/continents.rb",
      "generators/geography/templates/migrations/counties.rb",
@@ -42,7 +43,6 @@ Gem::Specification.new do |s|
      "lib/geography/data_loaders/continents.rb",
      "lib/geography/data_loaders/countries.rb",
      "rails/init.rb",
-     "tasks/geography_tasks.rake",
      "test/geography_test.rb",
      "test/test_helper.rb",
      "uninstall.rb"
