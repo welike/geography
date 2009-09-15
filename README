@@ -15,10 +15,32 @@ Where possible, I have chosen data sources with the most up to date information.
 
 == Installation
 
-<tt>
-$ sudo gem install welike-geography --source http://gems.github.com
-$ script/generate geography
-</tt>
+Install the gem:
+
+ $ sudo gem install welike-geography --source http://gems.github.com
+
+Generate all of the required classes, migrations, etc:
+
+ $ script/generate geography all
+
+== Configuration
+
+You can now customize the migration that is generated, and any of the classes that have been copied into your project. Once you're satisfied, it is time to migrate!
+
+ $ rake db:migrate
+
+Now, load in all the data:
+
+ $ rake geo:load:all
+
+This will load in all the data. Some of the data will be loaded from the internet, so you will want to be connected. We will need to rethink how to manage this moving forward (perhaps with older fallback data in case you do not wish to load anything from the net).
+
+You can also load in the data for just particular classes:
+
+ $ rake geo:load:continents
+ $ rake geo:load:countries
+
+That's it!
 
 == Classes
 
@@ -36,11 +58,11 @@ feedback, we can use alternative data sources that might be more precise or more
 
 === Continent
 
-* MaxMind
+* Wikipedia
 
 === Country
 
-* MaxMind
+* Wikipedia
  
 == Author
 
