@@ -5,7 +5,7 @@ class CreateContinents < ActiveRecord::Migration
       t.string :description, :null => true
       t.string :iso_3166_code, :null => false
       t.timestamps
-    end    
+    end
   end
 
   def self.down

@@ -2,23 +2,31 @@
  
 == Description
  
-This is a plugin for Rails that provides common geography-related classes, helpers, and up-to-date data, such 
-as Continent, Country, State, and ZipCode.
+This is a plugin for Rails that provides common geography-related classes, helpers, and up-to-date data, 
+such as Continent, Country, State, and ZipCode. I found that so many of my projects required these basic 
+geography classes that it made sense to pluginify it and share it with the world.
+
+It has been written to install as a gem (or installed plugin if you choose), and features a generator for 
+dynamically generating the classes and migrations. This allows customization before it hits the database, 
+in case you have particular needs for your geography classes/migrations. A collection of 
+rake tasks have been included to parse and import standardized data from various sources. Additionally, there are helpers to assist with common needs in your applications.
+
+Where possible, I have chosen data sources with the most up to date information. However, if you require an extreme level of accuracy, you might wish to purchase databases from the many overly priced companies that provide it.
 
 == Installation
 
-[code]
+<tt>
 $ sudo gem install welike-geography --source http://gems.github.com
 $ script/generate geography
-[/code]
+</tt>
 
 == Classes
 
 * Continent
 * Country
 * State
+* Region (common population areas, loosely tied to metropolitan areas)
 * County
-* PostalCode
 
 == Data Sources
 

@@ -3,7 +3,6 @@ class CreateRegions < ActiveRecord::Migration
     create_table :regions do |t|
       t.string :name
       t.string :description
-      t.integer :county_id
       t.integer :state_id
       t.integer :country_id
       t.boolean :active, :default => false
